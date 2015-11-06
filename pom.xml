@@ -22,7 +22,6 @@
       <scope>test</scope>
     </dependency>
 
-
     <dependency>
       <groupId>fr.univtln.mgajovski482.HyperPlanning</groupId>
       <artifactId>Reservable</artifactId>
