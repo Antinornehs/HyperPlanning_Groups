@@ -22,7 +22,7 @@ public class GroupInFormation {
 
 
     @NotNull
-    private final int id;
+    private int id;
     private String label;
 
     public GroupInFormation(){
@@ -31,9 +31,28 @@ public class GroupInFormation {
         ID++;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        if(this.id == ID-1){
+            ID--;
+        }
+        this.id = id;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
     public GroupInFormation setLabel(String label){
         this.label = label;
         return this;
+    }
+
+    public Map<Integer, Course> getGroupCoursesMap() {
+        return groupCoursesMap;
     }
 
     public GroupInFormation addCourses(List<Course> courses) {
