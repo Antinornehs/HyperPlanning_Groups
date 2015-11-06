@@ -1,6 +1,6 @@
 package fr.univtln.mgajovski482.HyperPlanning.GroupInFormation.GroupInFormationGenerator;
 
-import fr.univtln.mgajovski482.HyperPlanning.Class.Course;
+import fr.univtln.mgajovski482.HyperPlanning.Course.Course;
 import fr.univtln.mgajovski482.HyperPlanning.Consts;
 import fr.univtln.mgajovski482.HyperPlanning.GroupInFormation.GroupInFormation;
 

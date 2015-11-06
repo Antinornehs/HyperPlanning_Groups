@@ -1,15 +1,13 @@
 package fr.univtln.mgajovski482.HyperPlanning.GroupInFormation;
 
-import fr.univtln.mgajovski482.HyperPlanning.Class.Course;
+import fr.univtln.mgajovski482.HyperPlanning.Course.Course;
 
-import javax.validation.constraints.NotNull;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by stephane on 06/11/15.
- */
+
+
 public class GroupInFormation {
 
     private static int ID = 0;
@@ -20,8 +18,7 @@ public class GroupInFormation {
     private Map<Integer, Course> groupCoursesMap
             = new HashMap<Integer, Course>();
 
-
-    @NotNull
+    public int pierre ;
     private int id;
     private String label;
 
