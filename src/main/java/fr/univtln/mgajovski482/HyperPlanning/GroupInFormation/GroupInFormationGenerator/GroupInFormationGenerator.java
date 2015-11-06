@@ -17,7 +17,8 @@ public class GroupInFormationGenerator {
             = new Random();
 
     private static Course[] courses =
-            Course.staticClassMap.values().toArray(new Course[0]);
+
+            Course.staticCourseMap.values().toArray(new Course[0]);
 
 
     private static final char[] letters;
